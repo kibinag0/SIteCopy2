@@ -1,0 +1,489 @@
+body{
+  margin: 0;
+  width: 100%;
+}
+
+.header-top{
+  background-color: rgba(250,248,242,1);
+  margin: 0;
+  width: 1280px;
+  height: 109px;
+}
+
+.header-inside{
+  position: relative;
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.logo-sage{
+  position: absolute;
+  left: 78px;
+  top: 28px;
+  width: 180px;
+  height: 53px;
+}
+
+.logo-sage h2{
+  line-height: 1.2;
+  font-size: 35px;
+  text-align: left;
+  color: rgba(51,51,51,1);
+  margin-top: 0;
+  font-family: 'Nunito Sans';
+  font-weight: 800;
+  font-style: normal;
+}
+
+.header-menu-box{
+  height: 69px;
+  position: absolute;
+  right: 78px;
+  padding-top: 20px;
+
+}
+
+.header-menu{
+  width: 65px;
+  display: table-cell;
+}
+
+.header-menu p{
+  height: 23px;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.9;
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+}
+
+/* ここからコンテンツ */
+.first-wrapper{
+  width: 1280px;
+}
+
+#first-content{
+  height: 850px;
+  width: 1045px;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+
+.first-content-main-pic{
+  position: relative;
+  height: 550px;
+  background-image: url(http://static.showit.co/2400/grEw56CtSF2o6SKrX09HSw/69254/the_roar_showit_webdesign_sage_template_15.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 40% 40%;
+}
+
+.first-content-sub-pic{
+  position: absolute;
+  top: 155px;
+  left: 387.5px;
+}
+
+.first-content-text-box{
+  margin: 58px 0;
+  height: 184px;
+  width: 1045px;
+  position: relative;
+
+}
+
+.first-content-text-left-1{
+  width: 261px;
+  height: 63px;
+}
+
+.first-content-text-left-1 h2{
+  line-height: 1.6;
+  font-size: 16px;
+  text-align: left;
+  font-family: 'Nunito Sans';
+  font-weight: 800;
+  font-style: normal;
+  color: rgba(51,51,51,1);
+}
+
+.first-content-text-left-2{
+  width: 225px;
+  height: 36.5px;
+  background-color: rgba(51,51,51,1);
+  margin-top: 20px;
+  padding-top: 8.5px;
+}
+
+.first-content-text-left-2 p{
+  color: white;
+  line-height: 1.8;
+  letter-spacing: 0.1em;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+}
+
+.first-left{
+  display: table-cell;
+}
+
+.first-right{
+  position: absolute;
+  display: table-cell;
+  width: 655px;
+  height: 184px;
+  right: 0;
+  top: 0;
+}
+
+.first-right-text{
+  line-height: 1.9;
+  font-size: 15px;
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+
+/* ここから2つ目のコンテンツ */
+#second-content-box{
+  height: 850px;
+  display: flex;
+  width: 1280px;
+}
+
+.second-left-box{
+  background-image: url(http://static.showit.co/1200/B5Fiwk3sSDyfSc0Dq1Go8Q/69254/the_roar_showit_webdesign_sage_template_5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 850px;
+}
+
+.img-center{
+    height: 600px;
+    margin: 125px 95px;
+    width: 450px;
+}
+
+.second-right-box{
+  width: 640px;
+  background-color: rgba(250,248,242,1);
+  height: 850px;
+}
+
+.second-right-box-inside{
+  margin-top: 125px;
+  width: 315px;
+  height: 600px;
+  margin-left: 95px;
+}
+
+.about-box{
+  height: 90px;
+  padding-top: 90px;
+}
+
+.about-text{
+  color: white;
+  line-height: 1.2;
+  font-size: 75px;
+  text-align: left;
+  font-family: 'Nunito Sans';
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+
+.about-text-description{
+  width: 300px;
+
+}
+
+.about-text-description h3{
+  text-transform: uppercase;
+  line-height: 1.8;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  text-align: left;
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+  font-style: normal;
+}
+
+.about-text-description p{
+  line-height: 1.9;
+  font-size: 15px;
+  text-align: justify;
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+  font-style: normal;
+}
+
+.about-button{
+  text-align: center;
+  margin-top: 0px;
+  width: 179px;
+  height: 23px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.about-button p{
+  text-align: center;
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* ここから3つ目のコンテンツ */
+
+#third-content{
+  height: 889px;
+  background-color: rgba(237,240,245,1);
+  width: 1280px;
+}
+
+.third-content-box{
+  height: 600px;
+  width: 826px;
+  position: relative;
+  top: 110px;
+  left: 298px;
+}
+
+.main-img-3rd{
+  position: absolute;
+  right: 0px;
+}
+
+.sub1-img-3rd{
+  position: absolute;
+  top: 68px;
+  height: 267px;
+  width: 485px;
+  background-image: url(http://static.showit.co/800/GF-obFvUSCeuZUM2gm-jCA/69254/the_roar_showit_webdesign_sage_template_27.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70% 70%;
+}
+
+.sub2-img-3rd{
+  position: absolute;
+  top: 380px;
+  left: 525px;
+}
+
+.text-box-3rd{
+  position: absolute;
+  top: 411px;
+  height: 189px;
+  width: 299px;
+}
+
+.sub-text-3rd{
+  text-transform: uppercase;
+  line-height: 1.8;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  text-align: left;
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+  font-style: normal;
+  text-align: right;
+}
+
+.button-3rd{
+  float: right;
+}
+
+
+/* ここから4つ目のコンテンツ */
+#fourth-content{
+  height: 850px;
+  width: 1280px;
+  background-image: url(http://static.showit.co/1600/KjdK_NXcQ2mpMpduGwnbDA/69254/the_roar_showit_webdesign_sage_template_45.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: relative;
+}
+
+.pic-4th-content{
+  position: absolute;
+  left: 118px;
+  top: 125px;
+  height: 600px;
+  width: 450px;
+
+}
+
+.box-4th-content{
+  position: absolute;
+  width: 600px;
+  height: 407px;
+  background-color: rgba(237,240,245,1);
+  left: 340px;
+  top: 222px;
+}
+
+.text-box-4th-content{
+  position: absolute;
+  width: 418px;
+  height: 240px;
+  left: 431px;
+  top: 305px;
+}
+
+.bold-description-sub{
+  line-height: 1.6;
+  font-size: 16px;
+  text-align: left;
+  font-family: 'Nunito Sans';
+  font-weight: 800;
+  font-style: normal;
+  color: rgba(51,51,51,1);
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.sub-text-4th{
+  text-transform: uppercase;
+  line-height: 1.8;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  text-align: left;
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+}
+
+.text-4th{
+  line-height: 1.9;
+  font-size: 15px;
+  text-align: justify;
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 8px;
+}
+
+/* ここからfooter 1 */
+#first-footer{
+  height: 551px;
+  width: 1280px;
+  background-color: rgba(255,255,255,1);
+}
+
+.first-footer-inside-box{
+  width: 1038px;
+  height: 351px;
+  position: relative;
+  top: 98px;
+  left: 121px;
+}
+
+.second-text-first-footer{
+  width: 428px;
+}
+
+.footer-pic-box{
+  height: 208px;
+  width: 1038px;
+  display: flex;
+}
+
+.footer-pic-common{
+  width: 208px;
+  height: 208px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.foot-pic-1{
+  background-image: url(http://static.showit.co/400/B5Fiwk3sSDyfSc0Dq1Go8Q/69254/the_roar_showit_webdesign_sage_template_5.jpg);
+  background-position: 80% 80%;
+}
+
+.foot-pic-2{
+  background-image: url(http://static.showit.co/400/JAy4wnuvQBm_7pnINuxskw/69254/the_roar_showit_webdesign_sage_template_46.jpg);
+  background-position: 80% 80%;
+}
+
+.foot-pic-3{
+  background-image: url(http://static.showit.co/800/_GWXcyN_Q-etph1Vl3P1DQ/69254/the_roar_showit_webdesign_sage_template_40.jpg);
+  background-position: 50% 50%;
+}
+
+.foot-pic-4{
+  background-image: url(http://static.showit.co/400/GF-obFvUSCeuZUM2gm-jCA/69254/the_roar_showit_webdesign_sage_template_27.jpg);
+  background-position: 40% 40%;
+}
+
+.foot-pic-5{
+  background-image: url(http://static.showit.co/400/vYvLC89pTPaGCg_ynKraCQ/69254/the_roar_showit_webdesign_sage_template_3.jpg);
+  background-position: 40% 40%;
+}
+
+.sns-button{
+  width: 120px;
+  height: 15px;
+  float: left;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.menu-footer{
+  width: 300px;
+  height: 15px;
+  float: right;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-footer p{
+  height: 23px;
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.9;
+  font-family: 'Nunito Sans';
+  font-weight: 300;
+}
+
+/* ここから最後のfooter */
+#last-footer{
+  width: 1280px;
+  height: 70px;
+  background-color: rgba(245,239,227,1);
+
+}
+
+.last-footer-box{
+  width: 360px;
+  height: 15px;
+  position: relative;
+  display: flex;
+  top: 28px;
+  left: 121px;
+  justify-content: space-between;
+}
+
+.text-last-footer{
+  font-size: 10px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 1.8;
+  letter-spacing: 0.1em;
+}
